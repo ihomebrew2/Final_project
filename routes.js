@@ -9,11 +9,11 @@ angular.module("trailApp").config(["$routeProvider", function($routeProvider) {
   // });
 
   $routeProvider.when('/', {
-    template: '<trails />',
+    template: '<main-page />',
   });
 
-  $routeProvider.when('/trail-view', {
-    template: '<trail-view />',
-  });
+  // $routeProvider.when('/trail-view', {
+  //   template: '<trail-view />',
+  // });
 
 }]);

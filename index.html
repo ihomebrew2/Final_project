@@ -5,24 +5,27 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-route.js"></script>
-    <script src="module.js"></script>
-    <script src="routes.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-route.js"></script>
+	<script src="module.js"></script>
+	<script src="routes.js"></script>
 
-    <link rel="stylesheet" href="base.css" />
+	<link rel="stylesheet" href="base.css" />
 
-    <link rel="stylesheet" href="trails/trails.css" />
-    <script src="trails/trails.component.js"></script>
-		<script src="trails/trails.service.js"></script>
+	<link rel="stylesheet" href="main-page/main-page.css" />
+	<script src="main-page/main-page.component.js"></script>
 
-    <!-- <link rel="stylesheet" href="trail-view/trail-view.css" />
-    <script src="trail-view/trai-view.component.js"></script> -->
-    
-  </head>
+	<link rel="stylesheet" href="trails/trails.css" />
+	<script src="trails/trails.component.js"></script>
+	<script src="trails/trails.service.js"></script>
 
-  <body ng-app="trailApp">
-     <ng-view></ng-view>
-  </body>
+	<link rel="stylesheet" href="trail-detail/trail-detail.css" />
+    <script src="trail-detail/trail-detail.component.js"></script>
+
+</head>
+
+<body ng-app="trailApp">
+	<ng-view></ng-view>
+</body>
 
 </html>
