@@ -1,17 +1,7 @@
-h1 {
-	display: flex;
-	justify-content: center;
-
-}
-
-.trail-filter {
-	margin: 20px;
-}
 
 .trails {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	border: 2px solid black;
 }

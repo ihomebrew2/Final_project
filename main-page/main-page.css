@@ -1,0 +1,30 @@
+.main-container {
+	position: relative;
+	margin: auto;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #6fb98f;
+	height: 75px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 25px;
+	background-color: #6fb98f;
+}

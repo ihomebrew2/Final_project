@@ -1,4 +1,8 @@
+trail-detail-container {
+	border: 1px solid black;
+}
+
 trail-detail {
-	border: 1px solid red;
-	margin: 5px;
+	width: 600px;
+	margin: 10px;
 }
