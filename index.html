@@ -4,63 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
 
-	<link rel="stylesheet" href="base.css">
-	<title>CSS Test Page</title>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="routes.js"></script>
 
-<body>
-	<div class="main-container">
-		<header>
-			<img class="me" src="/daddy.jpg" alt="My Face Here">
-			<h2 class="my-name">James Riley</h2>
-		</header>
-		<nav>
-			<div class="nav-div"><a href="index.html">Home</a></div>
-			<div class="nav-div"><a href="https://github.com/JamesRileydev">Projects</a></div>
-			<!-- <div class="nav-div">Everywhere</div> -->
-		</nav>
-		<main>
-			<div class="index-about">
-				<p>Programming Machinist turned Software Developer - </p>
+    <link rel="stylesheet" href="base.css" />
 
-				<!-- <p>HTML5 / CSS3 / JavaScript / AngularJS / Github / Beginner on the job training in C++ / VB.net / Visual Studio</p> -->
+    <link rel="stylesheet" href="trails/trails.css" />
+    <script src="trails/trails.component.js"></script>
+		<script src="trails/trails.service.js"></script>
 
-				<p>I’ve been programming for years with software you’ve probably never heard of. I decided it was time to take my knack
-					for talking to computers and tap into the limitless potential of web development.</p>
+    <!-- <link rel="stylesheet" href="trail-view/trail-view.css" />
+    <script src="trail-view/trai-view.component.js"></script> -->
+    
+  </head>
 
-				<p>I am a multi-potentialist problem-solver inspired by my insatiable curiosity to understand how things work whether it
-					be mastering the art of writing really clean functional code, building my own beer brewing system, or rewiring my electric
-					service. I love to make things work and pride in my skills is what motivates me and pushes me to always be learning
-					and perfecting. </p>
-
-				<p>I prefer to work independently, but I’m a quiet leader in a team environment who likes to minimize conflict and go the
-					extra step to see the team succeed. I have an optimistic personality tempered with a down to business attitude that
-					shies away from gimmicks. I like to get stuff done.</p>
-
-				<p> If you are interested in chatting send me an email: <strong><a href="mailto:jamesriley.dev@gmail.com">jamesriley.dev@gmail.com</a></strong></p>
-			</div>
-
-
-
-
-
-
-			<!-- <div class="input-container">
-				<div class="input-div">
-					<input type="text" name="radius" id="radius-input" placeholder="Enter Search Radius">
-					<button class="search">Enter</button>
-				</div>
-			</div> -->
-			<!-- <div class="full-width">
-				<div class="thirds"></div>
-				<div class="thirds"></div>
-				<div class="thirds"></div>
-			</div> -->
-	</div>
-	</main>
-</body>
+  <body ng-app="trailApp">
+     <ng-view></ng-view>
+  </body>
 
 </html>

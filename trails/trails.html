@@ -1,0 +1,7 @@
+<h1>GR Out-n-Back</h1>
+
+<input ng-model="$ctrl.search" class="search" placeholder="Search" />
+
+<div ng-repeat="trail in $ctrl.trails | filter:$ctrl.search">{{trail.name}}</div>
+
+</div>
