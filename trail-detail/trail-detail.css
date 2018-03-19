@@ -1,8 +1,24 @@
-trail-detail-container {
-	border: 1px solid black;
+.location-name {
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: bold;
+	border-bottom: 1px dotted #f2f2f2;
+	width: 385px;
 }
 
-trail-detail {
-	width: 600px;
+.trail-detail {
+	width: 420px;
 	margin: 10px;
+	border-radius: 10px;
+	padding: 0px 0px 15px 30px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	box-shadow: 7px 7px 20px #343434;
+
+}
+
+.trail-info p {
+	font-family: 'Pontano Sans', sans-serif;
+	color: #fff;
+	z-index: 100;
+	margin: 0px;
 }

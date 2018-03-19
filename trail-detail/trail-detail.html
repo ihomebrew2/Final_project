@@ -1,13 +1,13 @@
-<div class="trai-detail-container">
+<div class="trail-detail-container">
 	<div>
-		{{$ctrl.thistrail.name}}
+		<p class="location-name" >Location: {{$ctrl.thistrail.name}}</p>
+	
 	</div>
 
-	<div ng-repeat="thisactivity in $ctrl.thistrail.activities">
-		Activity: {{thisactivity.activity_type_name}}
-		<br> Length: {{thisactivity.length}}
-		<br> Rating: {{thisactivity.rating}}
-		<br>
+	<div class="trail-info" ng-repeat="thisactivity in $ctrl.thistrail.activities">
+		<p>Activity: {{thisactivity.activity_type_name}}</p>
+		<p>Length: {{thisactivity.length}}</p>
+		<p>Rating: {{thisactivity.rating}}</p>
 	</div>
 
 	<div>
