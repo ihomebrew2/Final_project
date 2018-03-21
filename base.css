@@ -1,7 +1,14 @@
-html {
-  background: url('/img/wahlfield_2.png') no-repeat center center fixed;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('img/Wahlfield_2.png') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
+
 
 

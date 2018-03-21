@@ -5,7 +5,7 @@ angular.module("trailApp").service("TrailService", ['$http', function ($http) {
 			params: {
 				lat: 42.96,
 				lon: -85.66,
-				limit: 4,
+				limit: 6,
 				radius: 25
 			},
 			headers: { 'X-Mashape-Key': 'dVYNFyBiYUmshR4Da1wHTOQTXsxcp1b5we0jsnYtmQR6XqqfID' }
