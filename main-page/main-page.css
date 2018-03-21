@@ -1,6 +1,7 @@
-.main-page {
+main-page {
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 }
 
 header {
@@ -35,36 +36,15 @@ h1 {
 	left: 80px;
 	height: 250px;
 	width: 250px;
-	/* border-radius: 50%;
-	border: 1px solid #000;
-	background: #fff;
-	box-shadow: 5px 8px 25px #343434; */
 }
 
 .logo img {
  width: 250px;
 }
 
-.scroll-container {
-	/* flex: 1; */
-	margin: auto;
-	margin-top: 100px;
-	max-width: 600px;
-	height: 600px;
-	border-radius: 10px;
-	overflow-y: scroll;
-	background: rgba(256,256,256, 0.6);
-}
-
 
 footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	left: 0px;
+	text-align: center;
 	height: 20px;
 	background-color: #fff;
 	opacity: .95;
@@ -74,6 +54,8 @@ footer p {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
+	margin: 0;
+	padding: 0;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -98,7 +80,7 @@ footer p {
 }
 
 @media only screen and (max-width: 1200px)  {
-	.scroll-container {
+	.trail-detail {
 		margin-top: 200px;
 	}
 }
@@ -108,10 +90,10 @@ footer p {
 		display: none;
 	}
 
-	/* .scroll-container {
-		height: 100%;
+	.trail-detail {
+		height: auto;
 		overflow-y: hidden;
-	} */
+	}
 
 	.logo {
 		position: static;
@@ -125,4 +107,10 @@ footer p {
 	}
 
 }
+/* 
+@media only screen and (max-width: 375px) {
+	header{
+		display: none;
+	}
+} */
 
