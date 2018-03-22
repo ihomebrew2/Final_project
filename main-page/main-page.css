@@ -36,16 +36,16 @@ h1 {
 	left: 80px;
 	height: 250px;
 	width: 250px;
+	z-index: 100;
 }
 
 .logo img {
  width: 250px;
 }
 
-
 footer {
 	text-align: center;
-	height: 20px;
+	padding: 5px;
 	background-color: #fff;
 	opacity: .95;
 }
@@ -78,21 +78,19 @@ footer p {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(128, 128, 128, 0.7); 
 }
-
-@media only screen and (max-width: 1200px)  {
-	.trail-detail {
-		margin-top: 200px;
+@media (max-width: 1200px ) {
+	.logo img {
+		width: 175px;
 	}
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px ) {
 	h1 {
 		display: none;
 	}
 
-	.trail-detail {
-		height: auto;
-		overflow-y: hidden;
+		header {
+		display: none;
 	}
 
 	.logo {
@@ -104,13 +102,13 @@ footer p {
 
 	.logo img {
 		height: 195px;
+		width: 250px;
 	}
 
-}
-/* 
-@media only screen and (max-width: 375px) {
-	header{
-		display: none;
+	main-page {
+		height: auto;
 	}
-} */
+}
+
+
 

@@ -4,8 +4,25 @@ trails {
 	display: block;
 	margin: auto;
 	margin-top: 100px;
+	margin-bottom: 30px;
 	width: 600px;
 	border-radius: 10px;
 	overflow-y: scroll;
 	background: rgba(256,256,256, 0.6);
+}
+
+@media (max-width: 1200px )  {
+	trails {
+		margin-top: 220px;
+	}
+}
+
+@media (max-width: 700px ) {
+	trails {
+		margin: 0;
+		width: auto;
+		overflow-y: auto;
+		border-radius: 0;
+	
+	}
 }
