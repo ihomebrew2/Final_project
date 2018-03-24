@@ -1,1 +1,23 @@
+<div class="search-information">
+
+	<form ng-submit="$ctrl.submit()">
+		<input type="text" ng-model="$ctrl.location" placeholder="Grand Rapids, MI">
+		<button ng-click="focusInput=true">Lets Go!</button>
+	</form>
+
+	<div class="radius-container">
+		<div>
+			<p>Search Radius</p>
+		</div>
+		<div>
+			<select id="radius-dropdown" ng-model="$ctrl.radius">
+				<option value="5">5</option>
+				<option value="10">10</option>
+				<option value="25">25</option>
+				<option value="50">50</option>
+			</select>
+		</div>
+	</div>
+</div>
+
 <trail-detail class="trail-detail" ng-repeat="thistrail in $ctrl.trails" thistrail="thistrail"></trail-detail>

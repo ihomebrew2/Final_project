@@ -3,7 +3,9 @@
 	font-weight: bold;
 	border-bottom: 1px dotted #f2f2f2;
 	width: auto;
+	padding-top: 10px;
 	padding-right: 30px;
+	margin-bottom: 0px;
 	font-size: 20px;
 }
 
@@ -17,10 +19,38 @@
 	box-shadow: 7px 7px 20px #343434;
 }
 
+.activity-container {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	padding-right: 30px;
+	margin-top: 0px;
+}
+
+.trail-info {
+	margin-top: 25px;
+}
+
 .trail-info p {
 	font-family: 'Pontano Sans', sans-serif;
 	color: #fff;
 	z-index: 100;
 	margin: 0px;
 	font-size: 20px;
+}
+
+.activity-image {
+	display: flex;
+	align-items: center;
+	padding-top: 5px;
+}
+
+@media (max-width: 500px ) {
+	.activity-container {
+		flex-direction: column;
+	}
+
+	.acitivity-image {
+		margin: auto;
+	}
 }
