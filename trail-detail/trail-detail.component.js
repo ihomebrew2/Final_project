@@ -13,7 +13,6 @@ angular.module("trailApp").component("trailDetail", {
 				return;
 			}
 			return activityWithThumbnail.thumbnail;
-
 		}
 	}
 

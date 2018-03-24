@@ -9,13 +9,13 @@ angular.module("trailApp").service("TrailService", ['$http', function ($http) {
 			params: {
 				lat: this.lattitude,
 				lon: this.longitude,
-				limit: 25,
+				limit: 50,
 				radius: this.radius
 			},
 			headers: { 'X-Mashape-Key': 'dVYNFyBiYUmshR4Da1wHTOQTXsxcp1b5we0jsnYtmQR6XqqfID' }
 		}).then(
 			response => {
-				console.log(this.radius)
+				console.log("service-radius", this.radius)
 				console.log(response.data.places);
 				return response.data.places;
 			}
